@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: marif2/dockeransiblejenkins:0.0.1
+          image: marif2/dockeransiblejenkins:$DOCKER_TAG
           ports:
             - containerPort: 8080
           env:
